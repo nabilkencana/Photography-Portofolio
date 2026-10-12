@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id">
+    <html lang="id" className="lenis lenis-autoToggle" suppressHydrationWarning>
       <head>
         {/* Importmap for Framer vendor modules */}
         
@@ -87,7 +87,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {children}
 
         {/* Framer Main Bundle */}
