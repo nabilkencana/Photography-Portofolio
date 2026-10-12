@@ -1,7 +1,5 @@
 # Porto Haikal — Hasil Konversi Framer Export ke Next.js
 
-Folder ini adalah **konversi murni dari ekspor Framer** ([captured.framer.website](https://captured.framer.website/)) menggunakan library **`framer-export`** ke dalam arsitektur **Next.js**.
-
 ---
 
 ## 🚀 Cara Menjalankan
